@@ -61,8 +61,10 @@ export default function Section6() {
                     height: '12em',
                     borderRadius: '15px',
                     '@media (max-width: 768px)': {
-                        width: '20em',
-                        height: '8em'
+                        width: '19em',
+                        height: '8em',
+                        textAlign: 'left',
+                        fontSize: '16px'
                     }
                 }}>
                     <Typography sx={{
@@ -82,17 +84,26 @@ export default function Section6() {
                     height: '12em',
                     borderRadius: '15px',
                     '@media (max-width: 768px)': {
-                        width: '20em',
-                        height: '7em'
+                        width: '19em',
+                        height: '7em',
+                        textAlign: 'left',
+                        fontSize: '16px'
                     }
 
                 }}>
                     <Typography sx={{
                         fontWeight: 600,
-                        paddingBottom: '0.5em'
+                        paddingBottom: '0.5em',
                     }}>Built For You</Typography>
                     <Typography sx={{
                         fontSize: '14px',
+                        width: '11em',
+                        '@media (max-width: 768px)': {
+                            width: '19em',
+                            height: '7em',
+                            textAlign: 'left',
+                            fontSize: '14px'
+                        }
 
                     }}>Designed to support growing businesses and teams. No hidden charge or contract.</Typography>
 
@@ -104,8 +115,10 @@ export default function Section6() {
                     height: '12em',
                     borderRadius: '15px',
                     '@media (max-width: 768px)': {
-                        width: '20em',
-                        height: '8em'
+                        width: '19em',
+                        height: '8em',
+                        textAlign: 'left',
+                        fontSize: '16px'
                     }
                 }}>
                     <Typography sx={{
@@ -128,10 +141,12 @@ export default function Section6() {
                     height: '12em',
                     borderRadius: '15px',
                     '@media (max-width: 768px)': {
-                        width: '20em',
+                        width: '19em',
                         height: '8em',
                         marginBottom: '3em',
-                      
+                        textAlign: 'left',
+                        fontSize: '16px'
+
                     }
                 }}>
                     <Typography sx={{
@@ -153,8 +168,8 @@ export default function Section6() {
                         display: 'none',
                         '@media (max-width: 768px)': {
                             display: 'block',
-                            width: '20em',
-                          
+                            width: '19em',
+
                         }
                     }}>Our software scales with your business, accomodating an expanding workforce and evolving payroll needs seamlessly</Typography>
 
