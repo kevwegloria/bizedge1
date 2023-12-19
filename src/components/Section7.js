@@ -115,6 +115,9 @@ export default function Section7() {
                     lineHeight: '18px',
                     borderTopLeftRadius: '15px',
                     borderTopRightRadius: '15px',
+                    '&:hover': {
+                        backgroundColor: '#2898A4',
+                      },
 
                     '@media (max-width: 768px)': {
                         width: '10em',
@@ -132,6 +135,9 @@ export default function Section7() {
                     backgroundColor: '#f2f2f2',
                     color: '#171717',
                     textTransform: 'none',
+                    '&:hover': {
+                        backgroundColor: '#f2f2f2',
+                      },
                     '@media (max-width: 768px)': {
                         width: '10em',
                         padding: '10px 80px'
@@ -195,7 +201,10 @@ export default function Section7() {
                                 padding: '0.5em 2em',
                                 fontSize: '12px',
                                 color: '#878787',
-                                fontWeight: 600
+                                fontWeight: 600,
+                                '&:hover': {
+                                    backgroundColor: 'white',
+                                  },
                             }}
                             style={{ borderColor: '#2898A4', }}>Get Started</Button>
                     </Box>
@@ -226,7 +235,8 @@ export default function Section7() {
                             marginBottom: '15px',
                             marginTop: '10px',
                             color: '#171717',
-                            fontSize: '12px'
+                            fontSize: '12px',
+                            
                         }}>Per Employee/Month</Typography>
                     <Box sx={{
 
@@ -245,7 +255,10 @@ export default function Section7() {
                                 backgroundColor: '#f8b636',
                                 fontSize: '12px',
                                 color: 'white',
-                                fontWeight: 600
+                                fontWeight: 600,
+                                '&:hover': {
+                                    backgroundColor: '#f8b636',
+                                  },
                             }}
                         >Get Started</Button>
                     </Box>
@@ -285,7 +298,10 @@ export default function Section7() {
                                 padding: '0.5em 2em',
                                 fontSize: '12px',
                                 color: '#878787',
-                                fontWeight: 600
+                                fontWeight: 600,
+                                '&:hover': {
+                                    backgroundColor: 'white',
+                                  },
                             }}
                             style={{ borderColor: '#2898A4', }}>Get Started</Button>
                     </Box>
