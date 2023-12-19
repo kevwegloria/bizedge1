@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'blacksans';
+    src: url(./fonts/blacksans.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'blacksans', sans-serif;
+}
+
+
+.sec1b {
+    height: 150px;
+}
+
+.sec2a {
+    height: 23.5em;
+    position: absolute;
+    top: 3%;
+    left: 55%;
+
+}
+
+.sec8p {
+    font-family: 'blacksans';
+    color: red3;
+}
+
+.phone {
+    position: absolute;
+    top: 2%;
+    left: 60%;
+    height: 28em;
+}
+
+.sec4 {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    height: 27em;
+}
+
+.sec3a {
+    position: absolute;
+    top: -10%;
+    bottom: -10%;
+    left: 5%;
+    height: 33em;
+    z-index: 2;
+}
+
+.sec3b {
+    position: absolute;
+    bottom: 6%;
+    left: 31%;
+    height: 250px;
+    display: block;
+
+
+}
+
+
+
+@media (max-width: 768px) {
+    .sec1b {
+        height: 100px;
+    }
+
+    .phone {
+        position: absolute;
+        top: 82%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 22em;
+    }
+
+    .sec4 {
+        position: absolute;
+        top: 73%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 19em;
+    }
+
+
+    .sec2a {
+        position: absolute;
+        top: 68%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        height: 19em;
+
+
+
+
+    }
+
+    .sec3a {
+        position: absolute;
+        top: 73%;
+        left: 41%;
+        transform: translate(-50%, -50%);
+        height: 32em;
+    }
+
+    .sec3b {
+        left: 36%;
+        top: 45%;
+       
+        
+    }
+}
