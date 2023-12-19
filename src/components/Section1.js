@@ -49,7 +49,8 @@ export default function Section1() {
                     lineHeight: '70px',
                     '@media (max-width: 768px)': {
                         fontSize: '30px',
-                        width: '300px'
+                        width: '300px',
+                        lineHeight: '40px'
                     },
                 }}>
                     Unlock Your Full HR Potential WIth Our Powerful People Management App.

@@ -37,7 +37,7 @@ export default function Section7() {
                             
                         }
                     }} >
-                    Choose right for your business
+                    Choose right for your<br /> business
                 </Typography>
             </Box>
             <Box sx={{

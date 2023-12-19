@@ -62,8 +62,8 @@ export default function Section6() {
                     borderRadius: '15px',
                     '@media (max-width: 768px)': {
                         width: '20em',
-                       height: '8em'
-                     }
+                        height: '8em'
+                    }
                 }}>
                     <Typography sx={{
                         fontWeight: 600,
@@ -83,8 +83,8 @@ export default function Section6() {
                     borderRadius: '15px',
                     '@media (max-width: 768px)': {
                         width: '20em',
-                       height: '7em'
-                     }
+                        height: '7em'
+                    }
 
                 }}>
                     <Typography sx={{
@@ -105,16 +105,20 @@ export default function Section6() {
                     borderRadius: '15px',
                     '@media (max-width: 768px)': {
                         width: '20em',
-                       height: '10em'
-                     }
+                        height: '8em'
+                    }
                 }}>
                     <Typography sx={{
                         fontWeight: 600,
                         paddingBottom: '0.5em'
                     }}>Safe & Secure</Typography>
                     <Typography sx={{
-                        fontSize: '14px'
-                    }}>We maintain the <br /> confidentiality, integrity <br /> and availability of our data. No third party has <br /> your data.</Typography>
+                        fontSize: '14px',
+                        '@media (max-width: 768px)': {
+                            width: '19em'
+                        }
+
+                    }}>We maintain the confidentiality, integrity and availability of our data. No third party has your data.</Typography>
 
                 </Box>
                 <Box sx={{
@@ -125,9 +129,10 @@ export default function Section6() {
                     borderRadius: '15px',
                     '@media (max-width: 768px)': {
                         width: '20em',
-                       height: '7em',
-                       marginBottom: '3em'
-                     }
+                        height: '8em',
+                        marginBottom: '3em',
+                      
+                    }
                 }}>
                     <Typography sx={{
                         fontWeight: 600,
@@ -135,7 +140,23 @@ export default function Section6() {
                     }}>Support</Typography>
                     <Typography sx={{
                         fontSize: '14px',
+                        width: '12em',
+                        '@media (max-width: 768px)': {
+                            display: 'none'
+                        }
+
                     }}>Our customer success team is quick to offer assistance when you need it.</Typography>
+
+                    <Typography sx={{
+                        fontSize: '14px',
+                        width: '12em',
+                        display: 'none',
+                        '@media (max-width: 768px)': {
+                            display: 'block',
+                            width: '20em',
+                          
+                        }
+                    }}>Our software scales with your business, accomodating an expanding workforce and evolving payroll needs seamlessly</Typography>
 
                 </Box>
             </Box>
