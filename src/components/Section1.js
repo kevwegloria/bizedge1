@@ -26,7 +26,7 @@ export default function Section1() {
                 <img
                     src={sec1a}
                     alt={sec1a}
-                    style={{ height: 350, marginTop: '9em' }}
+                    style={{ height: 370, marginTop: '9em' }}
 
                 />
             </Box>
@@ -40,13 +40,13 @@ export default function Section1() {
                 flexDirection: 'column',
             }}>
                 <Typography variant="h4" sx={{
-                    width: '15em',
+                    color: '#171717',
                     textAlign: 'center',
-                    fontWeight: 'bold',
                     paddingBottom: '0.5em',
-                    lineHeight: '1.3em',
+               
                     fontSize: '50px',
-                    lineHeight: '70px',
+                    lineHeight: '60px',
+                    fontFamily: 'blacksansbold',
                     '@media (max-width: 768px)': {
                         fontSize: '30px',
                         width: '300px',
@@ -57,13 +57,16 @@ export default function Section1() {
                 </Typography>
 
 
-                <Typography variant="h6" sx={{
-                    width: '35em',
-                    color: '#6a6a6a',
-                    fontSize: '0.8em',
+                <Typography variant="p" sx={{
+                    width: '33.89em',
+                    color: '#545454',
+                    fontSize: '14.3px',
                     paddingBottom: '2.3em',
+                    fontfamily: 'blacksans',
+                    fontWeight: '600',
+                    lineHeight: '25px',
                     '@media (max-width: 768px)': {
-                        fontSize: '15px',
+                        fontSize: '13px',
                         width: '300px'
                     }
                 }}>
@@ -82,10 +85,9 @@ export default function Section1() {
                     }
                 }}>
                     <Button sx={{
-                        color: 'black',
+                        fontFamily: 'blacksansbold',
                         textTransform: 'none',
-                        fontWeight: 700,
-                        fontSize: 12,
+                        fontSize: '12px',
                         backgroundColor: '#e0eef0',
                         color: '#3ca1ac', padding: '7px 30px',
                         '&:hover': {
@@ -104,8 +106,10 @@ export default function Section1() {
                     }}>Sign Up For Free</Button>
 
                     <Button sx={{
-                        color: 'black',
+                        fontFamily: 'blacksansbold',
                         textTransform: 'none',
+                        fontSize: '18px',
+                        padding: 100,
                         '&:hover': {
                             color: '#e0eef0',
                             backgroundColor: '#3ca1ac',
@@ -134,7 +138,7 @@ export default function Section1() {
                     src={sec1c}
                     alt={sec1c}
                     style={{
-                        height: 350,
+                        height: 370,
                         marginTop: '9em'
                     }}
                 />

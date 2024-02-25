@@ -8,7 +8,7 @@ export default function Section4() {
     return (
         <Box>
             <Box sx={{
-                backgroundColor: '#ffcdcd',
+                backgroundColor: '#FFE5E5',
                 display: 'flex',
                 width: '60em',
                 justifyContent: 'center',
@@ -21,9 +21,10 @@ export default function Section4() {
                 flexDirection: 'row',
                 marginBottom: '6em',
                 marginTop: '6em',
+               
                 '@media (max-width: 768px)': {
                     flexDirection: 'column',
-                    width: '22em',
+                    width: '20em',
                     height: '26em',
                     justifyContent: 'center'
 
@@ -41,21 +42,26 @@ export default function Section4() {
                         textAlign: 'center'
                     }
                 }}>
-                    <Typography sx={{
+                    <Typography variant="p" sx={{
                         color: '#FF6666',
                         fontSize: '0.7em',
+                        fontFamily: 'blacksans',
+                        fontWeight: 'bold'
                     }}>Payroll</Typography>
                     <Typography sx={{
                         fontSize: '1.45em',
                         fontWeight: 600,
-                        marginBottom: '5px'
+                        marginBottom: '10px',
+                        fontFamily: 'blacksansbold',
                     }}>Autopilot your payroll</Typography>
                     <Typography sx={{
                           width: '22em',
-                          color: '#171717',
-                          fontSize: '14px',
+                          color: 'grey',
+                          fontSize: '13px',
+                          fontFamily: 'blacksans',
+                          fontWeight: 'bold',
                           '@media (max-width: 768px)': {
-                            width: '20em'
+                            width: '22em',
                         }
                     }}>Spend Less time doing your company's calculations, deductions and pay your team easily. Payroll made simple</Typography>
                 </Box>

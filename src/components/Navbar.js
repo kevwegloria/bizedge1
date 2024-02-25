@@ -17,7 +17,10 @@ export default function Navbar() {
         <Toolbar
           sx={{
             justifyContent: 'space-around',
-            '@media (max-width: 768px)': {}
+            gap: '100px',
+            '@media (max-width: 768px)': {
+              paddingTop: '50px'
+            }
           }}>
           <img src={logo}
             alt={logo}
@@ -35,23 +38,28 @@ export default function Navbar() {
             <Button
               sx={{
                 color: 'black',
+                fontFamily: 'blacksansbold',
                 textTransform: 'none',
                 backgroundColor: 'transparent',
+                fontSize: '16px',
                 '&:hover': {
                   backgroundColor: 'transparent',
                   color: 'black',
+  
                 },
                 '@media (max-width: 768px)':
                   { display: 'none' },
-                fontFamily: 'Poppins',
+
                 fontWeight: 700,
                 fontSize: 12
               }}>Home</Button>
             <Button
               sx={{
                 color: '#6a6a6a',
+                fontFamily: 'blacksans',
                 textTransform: 'none',
                 backgroundColor: 'transparent',
+                fontSize: '16px',
                 '&:hover': {
                   backgroundColor: 'transparent',
                   color: '#6a6a6a',
@@ -62,10 +70,14 @@ export default function Navbar() {
                 fontFamily: 'Poppins',
                 fontSize: 12
               }}>Request a Demo</Button>
+
             <Button
               sx={{
-                color: 'black',
+                color: '#545454',
+                fontFamily: 'blacksansbold',
                 textTransform: 'none',
+                fontSize: '16px',
+                fontWeight: 600,
                 '&:hover': {
                   color: '#2898a4',
                   backgroundColor: '#e0eef0',
@@ -74,7 +86,7 @@ export default function Navbar() {
                 border: 'none', padding: '5px 25px',
                 backgroundColor: '#e0eef0',
                 fontSize: 12,
-                fontWeight: 700,
+
               }}>Sign In</Button>
           </Box>
         </Toolbar>

@@ -10,13 +10,14 @@ import Button from '@mui/material/Button';
 export default function Section8() {
     return (
         <Box sx={{
+
             '@media (max-width: 768px)': {
                 paddingBottom: '4em'
             }
         }}>
             <Box sx={{
                 '@media (max-width: 768px)': {
-                    width: '20em',
+                    width: '17em',
                     marginLeft: 'auto',
                     marginRight: 'auto',
                     border: '1px',
@@ -36,6 +37,7 @@ export default function Section8() {
                     }
                 }}>
                     <Typography sx={{
+                        fontFamily: 'blacksans',
                         marginBottom: '10px',
                         paddingTop: '20px',
                         color: '#878787',
@@ -45,12 +47,21 @@ export default function Section8() {
                         marginBottom: '10px',
                         marginTop: '10px',
                         fontWeight: 700,
-                        fontSize: '20px'
+                        fontSize: '20px',
+                        '@media (max-width: 768px)': {
+                            fontFamily: 'blacksansbold',
+
+                        }
                     }}>&#8358;200</Typography>
                     <Typography sx={{
                         marginBottom: '10px',
-                        marginTop: '10px', 
-                        color: '#171717'
+                        marginTop: '10px',
+                        color: '#171717',
+                        '@media (max-width: 768px)': {
+                            fontFamily: 'blacksans',
+                            fontWeight: 'bold'
+
+                        }
                     }}>Per Employee</Typography>
                 </Box>
                 <Box sx={{
@@ -65,7 +76,13 @@ export default function Section8() {
                         color: '#171717',
                         border: 1,
                         padding: '0.7em 7em',
-                        borderRadius: '8px'
+                        borderRadius: '8px',
+                        '@media (max-width: 768px)': {
+                            fontFamily: 'blacksans',
+                            fontWeight: 'bold',
+                            color: 'gray',
+                            fontSize: '12px'
+                        }
                     }}
                         style={{ borderColor: '#2898A4', }}>Get Started</Button>
                 </Box>
@@ -86,16 +103,18 @@ export default function Section8() {
                     <Accordion sx={{
                         width: '60em',
                         boxShadow: 'none',
-                        
+
                         '@media (max-width: 768px)': {
-                            width: '19em'
+                            width: '17em'
                         }
                     }}>
                         <AccordionSummary expandIcon={<ExpandMoreIcon sx={{ color: '#2898A4', }} />} aria-controls="panel1a-content" id="panel1a-header">
                             <Typography variant="h6" sx={{
                                 color: '#2898A4',
                                 fontSize: '15px',
-                               
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold'
+
                             }}>People Management</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
@@ -103,12 +122,16 @@ export default function Section8() {
                                 marginBottom: '0.5em',
                                 fontSize: '15px',
                                 color: '#171717',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold'
                             }}>
                                 Request Leave/Time Off
                             </Typography>
                             <Typography sx={{
                                 color: '#171717',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold'
                             }}>
                                 View Time Off History
                             </Typography>
@@ -119,6 +142,8 @@ export default function Section8() {
                     <Accordion sx={{
                         width: '60em',
                         boxShadow: 'none',
+                        fontFamily: 'blacksans',
+                        fontWeight: 'bold',
                         '@media (max-width: 768px)': {
                             display: 'none'
                         }
@@ -127,14 +152,18 @@ export default function Section8() {
                             <Typography variant="h6"
                                 sx={{
                                     color: '#2898A4',
-                                    fontSize: '15px'
+                                    fontSize: '15px',
+                                    fontFamily: 'blacksans',
+                                    fontWeight: 'bold',
                                 }}>
                                 MyEdge - Employee Self Service</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <Typography sx={{
                                 color: '#171717',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>
                                 This is an example
                             </Typography>
@@ -145,8 +174,9 @@ export default function Section8() {
                     <Accordion sx={{
                         width: '60em',
                         boxShadow: 'none',
+
                         '@media (max-width: 768px)': {
-                            width: '19em'
+                            width: '17em'
                         }
                     }}>
                         <AccordionSummary expandIcon={<ExpandMoreIcon sx={{
@@ -155,13 +185,17 @@ export default function Section8() {
                         }} />} aria-controls="panel1a-content" id="panel1a-header">
                             <Typography variant="h6" sx={{
                                 color: '#2898A4',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>Task Management</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <Typography sx={{
                                 color: '#171717',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>
                                 Assign & Collaborate on Tasks
                             </Typography>
@@ -173,7 +207,7 @@ export default function Section8() {
                         width: '60em',
                         boxShadow: 'none',
                         '@media (max-width: 768px)': {
-                            width: '19em'
+                            width: '17em'
                         }
                     }}>
                         <AccordionSummary expandIcon={<ExpandMoreIcon sx={{
@@ -181,13 +215,17 @@ export default function Section8() {
                         }} />} aria-controls="panel1a-content" id="panel1a-header">
                             <Typography variant="h6" sx={{
                                 color: '#2898A4',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>Customer Support</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <Typography sx={{
                                 color: '#171717',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>
                                 Phone & Chat Support
                             </Typography>
@@ -198,7 +236,7 @@ export default function Section8() {
                         width: '60em',
                         boxShadow: 'none',
                         '@media (max-width: 768px)': {
-                            width: '19em'
+                            width: '17em'
                         }
                     }}>
                         <AccordionSummary expandIcon={<ExpandMoreIcon sx={{
@@ -207,7 +245,9 @@ export default function Section8() {
                         }} />} aria-controls="panel1a-content" id="panel1a-header">
                             <Typography variant="h6" sx={{
                                 color: '#2898A4',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>Time Off Management</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
@@ -215,24 +255,32 @@ export default function Section8() {
                                 marginBottom: '0.5em',
                                 fontSize: '15px',
                                 color: '#171717',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>
                                 Create and Customize Multiple <br /> Time Off Policies
                             </Typography>
                             <Typography sx={{
                                 color: '#171717',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>
                                 Apply for Time Off from Both Web <br /> and Mobile App
                             </Typography>
                             <Typography sx={{
                                 color: '#171717',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>
                                 Multi-Level Approvals
                             </Typography>
                             <Typography sx={{
                                 color: '#171717',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>
                                 Visibility of Who's Out & Teams' <br /> Upcoming Leave
                             </Typography>
@@ -253,13 +301,17 @@ export default function Section8() {
                         }} />} aria-controls="panel1a-content" id="panel1a-header">
                             <Typography variant="h6" sx={{
                                 color: '#2898A4',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>Reports</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <Typography sx={{
                                 color: '#171717',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>
                                 This is an example
                             </Typography>
@@ -271,7 +323,7 @@ export default function Section8() {
                         width: '60em',
                         boxShadow: 'none',
                         '@media (max-width: 768px)': {
-                            width: '19em'
+                            width: '17em'
                         }
                     }}>
                         <AccordionSummary expandIcon={<ExpandMoreIcon sx={{
@@ -280,13 +332,17 @@ export default function Section8() {
                         }} />} aria-controls="panel1a-content" id="panel1a-header">
                             <Typography variant="h6" sx={{
                                 color: '#2898A4',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>Document Management</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <Typography sx={{
                                 color: '#171717',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>
                                 Store Employee Documents <br /> (Educational Certs & more)
                             </Typography>
@@ -307,13 +363,17 @@ export default function Section8() {
                         }} />} aria-controls="panel1a-content" id="panel1a-header">
                             <Typography variant="h6" sx={{
                                 color: '#2898A4',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>Employee Onboarding</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <Typography sx={{
                                 color: '#171717',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>
                                 This is an example
                             </Typography>
@@ -334,13 +394,18 @@ export default function Section8() {
                         }} />} aria-controls="panel1a-content" id="panel1a-header">
                             <Typography variant="h6" sx={{
                                 color: '#2898A4',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>Time & Attendance Management</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <Typography sx={{
                                 color: '#171717',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
+
                             }}>
                                 This is an example
                             </Typography>
@@ -352,7 +417,7 @@ export default function Section8() {
                         width: '60em',
                         boxShadow: 'none',
                         '@media (max-width: 768px)': {
-                            width: '19em'
+                            width: '17em'
                         }
                     }}>
                         <AccordionSummary expandIcon={<ExpandMoreIcon sx={{
@@ -361,19 +426,25 @@ export default function Section8() {
                         }} />} aria-controls="panel1a-content" id="panel1a-header">
                             <Typography variant="h6" sx={{
                                 color: '#2898A4',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>Payroll</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <Typography sx={{
                                 color: '#171717',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>
                                 Payroll Run History
                             </Typography>
                             <Typography sx={{
                                 color: '#171717',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>
                                 View and Share Employee Payslips
                             </Typography>
@@ -394,13 +465,17 @@ export default function Section8() {
                         }} />} aria-controls="panel1a-content" id="panel1a-header">
                             <Typography variant="h6" sx={{
                                 color: '#2898A4',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }} >Payroll - Direct deposit</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <Typography sx={{
                                 color: '#171717',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>
                                 This is an example
                             </Typography>
@@ -422,13 +497,17 @@ export default function Section8() {
                         }} />} aria-controls="panel1a-content" id="panel1a-header">
                             <Typography variant="h6" sx={{
                                 color: '#2898A4',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>Accounting - Income</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <Typography sx={{
                                 color: '#171717',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>
                                 This is an example
                             </Typography>
@@ -449,13 +528,17 @@ export default function Section8() {
                         }} />} aria-controls="panel1a-content" id="panel1a-header">
                             <Typography variant="h6" sx={{
                                 color: '#2898A4',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>Accounting - Reports</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <Typography sx={{
                                 color: '#171717',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>
                                 This is an example
                             </Typography>
@@ -476,13 +559,17 @@ export default function Section8() {
                         }} />} aria-controls="panel1a-content" id="panel1a-header">
                             <Typography variant="h6" sx={{
                                 color: '#2898A4',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>Accounting - Expenditure</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <Typography sx={{
                                 color: '#171717',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>
                                 This is an example
                             </Typography>
@@ -502,13 +589,17 @@ export default function Section8() {
                         }} />} aria-controls="panel1a-content" id="panel1a-header">
                             <Typography variant="h6" sx={{
                                 color: '#2898A4',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>Accounting - Contacts</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <Typography sx={{
                                 color: '#171717',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>
                                 This is an example
                             </Typography>
@@ -529,13 +620,17 @@ export default function Section8() {
                         }} />} aria-controls="panel1a-content" id="panel1a-header">
                             <Typography variant="h6" sx={{
                                 color: '#2898A4',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>Accounting - Inventory</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <Typography sx={{
                                 color: '#171717',
-                                fontSize: '15px'
+                                fontSize: '15px',
+                                fontFamily: 'blacksans',
+                                fontWeight: 'bold',
                             }}>
                                 This is an example
                             </Typography>

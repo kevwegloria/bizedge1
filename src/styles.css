@@ -5,6 +5,26 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'blacksansbold';
+    src: url(./fonts/blacksansbold.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'blacksansblack';
+    src: url(./fonts/blacksansblack.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'blacksanscon';
+    src: url(./fonts/blacksanscon.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 * {
@@ -12,6 +32,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'blacksans', sans-serif;
+   
 }
 
 
@@ -27,6 +48,12 @@
 
 }
 
+.sec2b {
+    display: none;
+}
+
+
+
 .sec8p {
     font-family: 'blacksans';
     color: red3;
@@ -35,7 +62,7 @@
 .phone {
     position: absolute;
     top: 2%;
-    left: 60%;
+    left: 55%;
     height: 28em;
 }
 
@@ -72,6 +99,10 @@
         height: 100px;
     }
 
+    .sec2a {
+        display: none;
+    }
+
     .phone {
         position: absolute;
         top: 82%;
@@ -85,17 +116,17 @@
         top: 73%;
         left: 50%;
         transform: translate(-50%, -50%);
-        height: 19em;
+        height: 17.5em;
     }
 
 
-    .sec2a {
+    .sec2b {
         position: absolute;
         top: 68%;
-        left: 52%;
+        left: 50%;
         transform: translate(-50%, -50%);
-        height: 19em;
-
+        height: 20em;
+        display: block;
 
 
 
@@ -106,12 +137,13 @@
         top: 73%;
         left: 41%;
         transform: translate(-50%, -50%);
-        height: 32em;
+        height: 28em;
     }
 
     .sec3b {
         left: 36%;
-        top: 45%;
+        top: 50%;
+        height: 14.4em;
        
         
     }

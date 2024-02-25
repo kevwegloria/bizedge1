@@ -22,10 +22,10 @@ export default function Section3() {
                 height: '25em',
                 flexDirection: 'row',
                 marginBottom: '9em',
-                marginTop: '6em',
+                marginTop: '7em',
                 '@media (max-width: 768px)': {
                     flexDirection: 'column',
-                    width: '22em',
+                    width: '20em',
                     height: '40em',
                     justifyContent: 'center'
 
@@ -48,19 +48,22 @@ export default function Section3() {
                 <Box sx={{
                     position: 'absolute',
                     left: '65%',
+                    top: '24%',
 
                     '@media (max-width: 768px)': {
                         position: 'absolute',
                         top: '1%',
                         left: '12%',
                         textAlign: 'center',
-
+                      
                         paddingTop: '2em'
                     }
                 }}>
                     <Typography sx={{
                         color: '#f8b636',
                         fontSize: '0.7em',
+                        fontFamily: 'blacksansbold',
+                        marginBottom: '20px'
                        
                     }}>
                         Time & Attendance
@@ -68,14 +71,20 @@ export default function Section3() {
                     <Typography sx={{
                         fontSize: '1.45em',
                         fontWeight: 600,
-                        marginBottom: '5px'
+                        marginBottom: '5px',
+                        fontFamily: 'blacksansbold',
+                        lineHeight: '25px'
                     }}>
                         Track employee <br /> attendance easily
                     </Typography>
                     <Typography sx={{
                         width: '19em',
-                        color: '#171717',
-                        fontSize: '14px',
+                        color: 'grey',
+                        fontSize: '13px',
+                        fontFamily: 'blacksans',
+                        fontWeight: 'bold',
+                        paddingTop: '20px'
+                       
                     }}>
                         Set up an efficient clock in & clock out tool for your employees, whether they work onsite or remotely.
                     </Typography>

@@ -18,7 +18,8 @@ export default function Section7() {
                         textAlign: 'center',
                         marginBottom: '15px',
                         display: 'block',
-                        paddingTop: '2em',
+                        paddingTop: '2.5em',
+                        fontFamily: 'blacksansbold',
                         '@media (max-width: 768px)': {
                             display: 'none'
                         }
@@ -34,7 +35,9 @@ export default function Section7() {
                         display: 'none',
                         '@media (max-width: 768px)': {
                             display: 'block',
-                            
+                            fontFamily: 'blacksansbold',
+                           fontSize: '24px'
+
                         }
                     }} >
                     Choose right for your<br /> business
@@ -42,7 +45,7 @@ export default function Section7() {
             </Box>
             <Box sx={{
                 display: 'flex',
-                justifyContent: 'center',
+                justifyContent: 'space-between',
                 backgroundColor: '#f2f2f2',
                 width: '19em',
                 borderRadius: '20px',
@@ -51,19 +54,23 @@ export default function Section7() {
                 marginRight: 'auto',
                 color: '#171717',
                 marginBottom: '1em',
-                gap: '3em',
+
                 paddingTop: '0.3em',
                 paddingBottom: '0.3em',
 
             }}>
 
-                <Box sx={{}}>
+                <Box sx={{
+
+                }}>
                     <Typography sx={{
                         fontSize: '15px',
                         fontWeight: 600,
                         padding: '5px 10px 5px 10px',
                         backgroundColor: '#fce2af',
-                        borderRadius: '15px'
+                        borderRadius: '15px',
+                        marginLeft: '5px',
+                        fontfamily: 'blacksans',
                     }}>Yearly <span style={{
                         fontSize: '12px',
                         color: 'white',
@@ -75,8 +82,12 @@ export default function Section7() {
                     }}>Up to 33% Off</span></Typography>
 
                 </Box>
-                <Typography sx={{
-                    paddingRight: '2em'
+                <Typography variant="p" sx={{
+                    paddingRight: '2em',
+                    fontSize: '15px',
+                    fontWeight: '700',
+                    color: '#545454',
+                    fontfamily: 'blacksans',
                 }}>
                     Monthly
                 </Typography>
@@ -103,6 +114,8 @@ export default function Section7() {
                 }
             }}>
                 <Button sx={{
+                    fontFamily: 'blacksans',
+                    fontWeight: 'bold',
                     border: 'none',
                     display: 'flex',
                     justifyContent: 'center',
@@ -117,7 +130,7 @@ export default function Section7() {
                     borderTopRightRadius: '15px',
                     '&:hover': {
                         backgroundColor: '#2898A4',
-                      },
+                    },
 
                     '@media (max-width: 768px)': {
                         width: '10em',
@@ -126,6 +139,8 @@ export default function Section7() {
                     }
                 }}>BizEdge Suite<br />(Recommended)</Button>
                 <Button sx={{
+                    fontFamily: 'blacksans',
+                    fontWeight: 'bold',
                     border: 'none',
                     height: '4em',
                     width: '40em',
@@ -133,11 +148,11 @@ export default function Section7() {
                     borderTopRightRadius: '15px',
                     border: 'none',
                     backgroundColor: '#f2f2f2',
-                    color: '#171717',
+                    color: 'grey',
                     textTransform: 'none',
                     '&:hover': {
                         backgroundColor: '#f2f2f2',
-                      },
+                    },
                     '@media (max-width: 768px)': {
                         width: '10em',
                         padding: '10px 80px'
@@ -169,21 +184,26 @@ export default function Section7() {
                     textAlign: 'center'
                 }}>
                     <Typography sx={{
+                        fontFamily: 'blacksansbold',
 
                         paddingTop: '7px',
                         color: '#878787',
-                        fontWeight: 600
+
                     }}>Startup</Typography>
                     <Typography sx={{
-                        fontWeight: 700,
-                        fontSize: '18px'
+
+                        fontSize: '18px',
+                        fontFamily: 'blacksansbold',
+
                     }}>300 NGN</Typography>
                     <Typography
                         sx={{
                             marginBottom: '15px',
                             marginTop: '10px',
                             color: '#171717',
-                            fontSize: '12px'
+                            fontSize: '12px',
+                            fontFamily: 'blacksans',
+                            fontWeight: 'bold',
                         }}>Per Employee/Month</Typography>
                     <Box sx={{
 
@@ -202,9 +222,11 @@ export default function Section7() {
                                 fontSize: '12px',
                                 color: '#878787',
                                 fontWeight: 600,
+                                fontFamily: 'blacksans',
+
                                 '&:hover': {
                                     backgroundColor: 'white',
-                                  },
+                                },
                             }}
                             style={{ borderColor: '#2898A4', }}>Get Started</Button>
                     </Box>
@@ -219,14 +241,14 @@ export default function Section7() {
 
                 }}>
                     <Typography sx={{
-
+                        fontFamily: 'blacksansbold',
                         paddingTop: '10px',
                         fontSize: '14px',
                         color: '#878787',
-                        fontWeight: 600
+
                     }}>Business (Popular)</Typography>
                     <Typography sx={{
-
+                        fontFamily: 'blacksansbold',
                         fontWeight: 700,
                         fontSize: '18px'
                     }}>500 NGN</Typography>
@@ -236,7 +258,8 @@ export default function Section7() {
                             marginTop: '10px',
                             color: '#171717',
                             fontSize: '12px',
-                            
+                            fontFamily: 'blacksans',
+                            fontWeight: 'bold',
                         }}>Per Employee/Month</Typography>
                     <Box sx={{
 
@@ -256,22 +279,25 @@ export default function Section7() {
                                 fontSize: '12px',
                                 color: 'white',
                                 fontWeight: 600,
+                                fontFamily: 'blacksans',
+
                                 '&:hover': {
                                     backgroundColor: '#f8b636',
-                                  },
+                                },
                             }}
                         >Get Started</Button>
                     </Box>
                 </Box>
                 <Box sx={{ textAlign: 'center' }}>
                     <Typography sx={{
+                        fontFamily: 'blacksansbold',
 
                         paddingTop: '10px',
                         color: '#878787',
                         fontWeight: 600
                     }}>Pro</Typography>
                     <Typography sx={{
-
+                        fontFamily: 'blacksansbold',
                         fontWeight: 700,
                         fontSize: '18px'
                     }}>1000 NGN</Typography>
@@ -280,7 +306,9 @@ export default function Section7() {
                             marginBottom: '5px',
 
                             color: '#171717',
-                            fontSize: '12px'
+                            fontSize: '12px',
+                            fontFamily: 'blacksans',
+                            fontWeight: 'bold',
                         }}>(Minimum of 20 <br />Employees)</Typography>
                     <Box sx={{
 
@@ -299,9 +327,11 @@ export default function Section7() {
                                 fontSize: '12px',
                                 color: '#878787',
                                 fontWeight: 600,
+                                fontFamily: 'blacksans',
+                                fontWeight: 600,
                                 '&:hover': {
                                     backgroundColor: 'white',
-                                  },
+                                },
                             }}
                             style={{ borderColor: '#2898A4', }}>Get Started</Button>
                     </Box>

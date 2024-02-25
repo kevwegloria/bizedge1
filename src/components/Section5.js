@@ -27,7 +27,7 @@ export default function Section5() {
 
                 '@media (max-width: 768px)': {
                     flexDirection: 'column',
-                    width: '22em',
+                    width: '20em',
                     height: '33em',
                     justifyContent: 'center'
 
@@ -47,27 +47,33 @@ export default function Section5() {
                         textAlign: 'center'
                     }
                 }}>
-                    <Typography sx={{
+                    <Typography variant="p" sx={{
                         fontSize: '0.7em',
                         color: '#4069d0',
-
+                        fontFamily: 'blacksansbold'
                     }}>MyEdge (employee self-service)</Typography>
                     <Typography sx={{
-                        fontSize: '1.5em',
+                        fontSize: '1.45em',
                         fontWeight: 600,
+                        fontFamily: 'blacksansbold',
+                        marginBottom: '15px',
                         '@media (max-width: 768px)': {
                             fontSize: '1.9em',
                             paddingTop: '5px',
-                            paddingBottom: '5px'
+                            paddingBottom: '5px',
+                            lineHeight: '35px'
                         }
 
                     }}>Get the best out of Work-life</Typography>
                     <Typography sx={{
-                        width: '23em',
-                        color: '#171717',
-                        fontSize: '14px',
+                        width: '27em',
+                        color: 'grey',
+                        fontSize: '13px',
+                        fontFamily: 'blacksans',
+                        fontWeight: 'bold',
                         '@media (max-width: 768px)': {
-                            width: '20em'
+                            width: '22em',
+                            fontSize: '12px'
                         }
                     }}>MyEdge app has features that manage employee information that helps achieve a stress-free and personalised self-service experience</Typography>
                 </Box>

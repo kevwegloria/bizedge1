@@ -28,22 +28,30 @@ export default function Section9() {
                         fontWeight: 800,
                         color: '#333333',
                         fontSize: '18px',
-                        lineHeight: '2.5em'
+                        lineHeight: '2.5em',
+                        fontFamily: 'blacksansblack'
                     }}>Home</Typography>
                     <Typography variant="h6" sx={{
                         color: '#333333',
                         fontSize: '14px',
                         lineHeight: '2.5em'
+                        ,fontFamily: 'blacksans',
+                        fontWeight: 'bold'
+
                     }}>Pricing</Typography>
                     <Typography variant="h6" sx={{
                         color: '#333333',
                         fontSize: '14px',
-                        lineHeight: '2.5em'
+                        lineHeight: '2.5em',
+                        fontFamily: 'blacksans',
+                        fontWeight: 'bold',
                     }}>Term of Service</Typography>
                     <Typography variant="h6" sx={{
                         color: '#333333',
                         fontSize: '14px',
                         lineHeight: '2.5em'
+                        ,fontFamily: 'blacksans',
+                        fontWeight: 'bold'
                     }}>Privacy Policy</Typography>
 
 
@@ -53,22 +61,29 @@ export default function Section9() {
                             fontWeight: 800,
                             color: '#333333',
                             fontSize: '18px',
-                            lineHeight: '2.5em'
+                            lineHeight: '2.5em',
+                            fontFamily: 'blacksansblack'
                         }}>Resources</Typography>
                         <Typography variant="h6" sx={{
                             color: '#333333',
                             fontSize: '14px',
                             lineHeight: '2.5em'
+                            ,fontFamily: 'blacksans',
+                            fontWeight: 'bold'
                         }}>Help Center</Typography>
                         <Typography variant="h6" sx={{
                             color: '#333333',
                             fontSize: '14px',
                             lineHeight: '2.5em'
+                            ,fontFamily: 'blacksans',
+                            fontWeight: 'bold'
                         }}>FAQs</Typography>
                         <Typography variant="h6" sx={{
                             color: '#333333',
                             fontSize: '14px',
                             lineHeight: '2.5em'
+                            ,fontFamily: 'blacksans',
+                            fontWeight: 'bold'
                         }}>Insights</Typography>
 
 
@@ -81,37 +96,50 @@ export default function Section9() {
                             fontWeight: 800,
                             color: '#333333',
                             fontSize: '18px',
-                            lineHeight: '2.5em'
+                            lineHeight: '2.5em',
+                            fontFamily: 'blacksansblack'
                         }}>Apps</Typography>
                         <Typography variant="h6" sx={{
                             color: '#333333',
                             fontSize: '14px',
                             lineHeight: '2.5em'
+                            ,fontFamily: 'blacksans',
+                            fontWeight: 'bold'
                         }}>Human Resources</Typography>
                         <Typography variant="h6" sx={{
                             color: '#333333',
                             fontSize: '14px',
                             lineHeight: '2.5em'
+                            ,fontFamily: 'blacksans',
+                            fontWeight: 'bold'
                         }}>Task App</Typography>
                         <Typography variant="h6" sx={{
                             color: '#333333',
                             fontSize: '14px',
                             lineHeight: '2.5em'
+                            ,fontFamily: 'blacksans',
+                            fontWeight: 'bold'
                         }}>Time & Attendance</Typography>
                         <Typography variant="h6" sx={{
                             color: '#333333',
                             fontSize: '14px',
                             lineHeight: '2.5em'
+                            ,fontFamily: 'blacksans',
+                            fontWeight: 'bold'
                         }}>Assets & Vehicle</Typography>
                         <Typography variant="h6" sx={{
                             color: '#333333',
                             fontSize: '14px',
                             lineHeight: '2.5em'
+                            ,fontFamily: 'blacksans',
+                            fontWeight: 'bold'
                         }}>Payroll</Typography>
                         <Typography variant="h6" sx={{
                             color: '#333333',
                             fontSize: '14px',
                             lineHeight: '2.5em'
+                            ,fontFamily: 'blacksans',
+                            fontWeight: 'bold'
                         }}>Accounting</Typography>
 
                     </Box>
@@ -120,17 +148,22 @@ export default function Section9() {
                             fontWeight: 800,
                             color: '#333333',
                             fontSize: '18px',
-                            lineHeight: '2.5em'
+                            lineHeight: '2.5em',
+                            fontFamily: 'blacksansblack'
                         }}>Contact</Typography>
                         <Typography variant="h6" sx={{
                             color: '#333333',
                             fontSize: '14px',
                             lineHeight: '2.5em'
+                            ,fontFamily: 'blacksans',
+                            fontWeight: 'bold'
                         }}>Get in Touch</Typography>
                         <Typography variant="h6" sx={{
                             color: '#333333',
                             fontSize: '14px',
                             lineHeight: '2.5em'
+                            ,fontFamily: 'blacksans',
+                            fontWeight: 'bold'
                         }}>Request a Demo</Typography>
 
 

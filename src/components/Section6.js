@@ -14,28 +14,35 @@ export default function Section6() {
                 <Typography sx={{
                     fontSize: '1.5em',
                     fontWeight: 700,
-                    paddingTop: '1em',
+                    paddingTop: '1.6em',
                     paddingBottom: '0.5em',
+
+                    fontFamily: 'blacksansbold',
                     '@media (max-width: 768px)': {
                         width: '15em',
                         marginLeft: 'auto',
                         marginRight: 'auto',
-                        paddingTop: '2em'
+                        paddingTop: '2em',
+                        fontSize: '22px'
                     }
                 }}>
                     We are here to provide you with all you need
                 </Typography>
                 <Typography sx={{
-                    color: '#171717',
-                    paddingBottom: '3em',
-                    width: '30em',
+                    color: '#545454',
+                    fontWeight: 'bold',
+                    paddingBottom: '3.5em',
+                    width: '32em',
                     textAlign: 'center',
                     marginLeft: 'auto',
                     marginRight: 'auto',
+                    fontFamily: 'blacksans',
+                    fontSize: '14px',
                     '@media (max-width: 768px)': {
-                        width: '20em',
+                        width: '22em',
                         marginLeft: 'auto',
-                        marginRight: 'auto'
+                        marginRight: 'auto',
+                        fontSize: '13px'
                     }
 
                 }}>
@@ -57,34 +64,50 @@ export default function Section6() {
                 <Box sx={{
                     backgroundColor: '#f2f2f2',
                     width: '14em',
-                    padding: '1em',
+                    padding: '1.5em',
                     height: '12em',
                     borderRadius: '15px',
                     '@media (max-width: 768px)': {
-                        width: '19em',
-                        height: '8em',
+                        width: '18.5em',
+                        height: '8.3em',
                         textAlign: 'left',
                         fontSize: '16px'
                     }
                 }}>
                     <Typography sx={{
                         fontWeight: 600,
-                        paddingBottom: '0.5em'
+                        paddingBottom: '0.5em',
+                        fontFamily: 'blacksansblack',
+                        marginBottom: '10px',
+                        fontSize: '16px',
+                        color: '#171717',
+                        '@media (max-width: 768px)': {
+                            fontFamily: 'blacksansbold',
+                            
+                        }
+
                     }} >Ease of Use</Typography>
                     <Typography sx={{
-                        fontSize: '14px',
-
-                    }}>With our simple interface, employers and employees find it easy to operate the app. No specific training is required </Typography>
+                        fontSize: '12px',
+                        fontFamily: 'blacksans',
+                        width: '14em',
+                        color: 'grey',
+                        fontWeight: 'bold',
+                        '@media (max-width: 768px)': {
+                          
+                            width: '21em'
+                        }
+                    }}>With our simple interface, employers and employees find it easy to operate the app. No specific training is required. </Typography>
 
                 </Box>
                 <Box sx={{
                     backgroundColor: '#f2f2f2',
                     width: '14em',
-                    padding: '1em',
+                    padding: '1.5em',
                     height: '12em',
                     borderRadius: '15px',
                     '@media (max-width: 768px)': {
-                        width: '19em',
+                        width: '18.5em',
                         height: '7em',
                         textAlign: 'left',
                         fontSize: '16px'
@@ -94,15 +117,25 @@ export default function Section6() {
                     <Typography sx={{
                         fontWeight: 600,
                         paddingBottom: '0.5em',
+                        fontFamily: 'blacksansblack',
+                        fontSize: '16px',
+                        marginBottom: '10px',
+                        color: '#171717',
+                        '@media (max-width: 768px)': {
+                            fontFamily: 'blacksansbold',
+                            
+                        }
                     }}>Built For You</Typography>
                     <Typography sx={{
-                        fontSize: '14px',
-                        width: '11em',
+                        fontSize: '12px',
+                        color: 'grey',
+                        fontWeight: 'bold',
+                        fontFamily: 'blacksans',
+                        width: '12em',
                         '@media (max-width: 768px)': {
-                            width: '19em',
-                            height: '7em',
-                            textAlign: 'left',
-                            fontSize: '14px'
+                            width: '21em',
+                           
+
                         }
 
                     }}>Designed to support growing businesses and teams. No hidden charge or contract.</Typography>
@@ -111,38 +144,50 @@ export default function Section6() {
                 <Box sx={{
                     backgroundColor: '#f2f2f2',
                     width: '14em',
-                    padding: '1em',
+                    padding: '1.5em',
                     height: '12em',
                     borderRadius: '15px',
                     '@media (max-width: 768px)': {
-                        width: '19em',
-                        height: '8em',
+                        width: '18.5em',
+                        height: '8.3em',
                         textAlign: 'left',
                         fontSize: '16px'
                     }
                 }}>
                     <Typography sx={{
                         fontWeight: 600,
-                        paddingBottom: '0.5em'
-                    }}>Safe & Secure</Typography>
-                    <Typography sx={{
-                        fontSize: '14px',
+                        paddingBottom: '1em',
+                        fontFamily: 'blacksansblack',
+                        fontSize: '16px',
+                        color: '#171717',
                         '@media (max-width: 768px)': {
-                            width: '19em'
+                            fontFamily: 'blacksansbold',
+                            
                         }
 
-                    }}>We maintain the confidentiality, integrity and availability of our data. No third party has your data.</Typography>
+                    }}>Safe & Secure</Typography>
+                    <Typography sx={{
+                        fontSize: '12px',
+                        fontFamily: 'blacksans',
+                        width: '13em',
+                        color: 'grey',
+                        fontWeight: 'bold',
+                        '@media (max-width: 768px)': {
+                            width: '20em'
+                        }
+
+                    }}>We maintain the confidentiality, integrity and availability of your data. No third party has your data.</Typography>
 
                 </Box>
                 <Box sx={{
                     backgroundColor: '#f2f2f2',
                     width: '14em',
-                    padding: '1em',
+                    padding: '1.5em',
                     height: '12em',
                     borderRadius: '15px',
                     '@media (max-width: 768px)': {
-                        width: '19em',
-                        height: '8em',
+                        width: '18.5em',
+                        height: '8.3em',
                         marginBottom: '3em',
                         textAlign: 'left',
                         fontSize: '16px'
@@ -150,11 +195,23 @@ export default function Section6() {
                     }
                 }}>
                     <Typography sx={{
-                        fontWeight: 600,
-                        paddingBottom: '0.5em'
+                       fontWeight: 600,
+                       paddingBottom: '0.4em',
+                       fontFamily: 'blacksansblack',
+                       fontSize: '16px',
+                       marginBottom: '10px',
+                       color: '#171717',
+                       '@media (max-width: 768px)': {
+                        fontFamily: 'blacksansbold',
+                        
+                    }
+
                     }}>Support</Typography>
                     <Typography sx={{
-                        fontSize: '14px',
+                        fontSize: '12px',
+                        color: 'grey',
+                        fontWeight: 'bold',
+                        fontFamily: 'blacksans',
                         width: '12em',
                         '@media (max-width: 768px)': {
                             display: 'none'
@@ -163,12 +220,15 @@ export default function Section6() {
                     }}>Our customer success team is quick to offer assistance when you need it.</Typography>
 
                     <Typography sx={{
-                        fontSize: '14px',
+                        fontSize: '12px',
                         width: '12em',
                         display: 'none',
+                        fontFamily: 'blacksans',
+                        fontWeight: 'bold',
+                        color: 'grey',
                         '@media (max-width: 768px)': {
                             display: 'block',
-                            width: '19em',
+                            width: '21em',
 
                         }
                     }}>Our software scales with your business, accomodating an expanding workforce and evolving payroll needs seamlessly</Typography>
