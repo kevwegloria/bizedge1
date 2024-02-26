@@ -13,21 +13,21 @@ export default function Section2() {
 
         sx={{
           textAlign: 'center',
-          paddingBottom: '60px',
+          paddingBottom: '3em',
           borderTop: 1,
           width: '60em',
           alignItems: 'center',
           marginLeft: 'auto',
           marginRight: 'auto',
           borderColor: '#e1e1e1',
-          paddingTop: '50px',
+          paddingTop: '3em',
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'center',
           '@media (max-width: 768px)': {
             flexDirection: 'column',
             width: '22em',
-            height: '31em',
+          
             justifyContent: 'center',
 
           }
@@ -39,7 +39,7 @@ export default function Section2() {
             fontFamily: 'blacksansbold',
             fontSize: '2em',
             fontWeight: 'bolder',
-            marginBottom: '15px',
+            marginBottom: '0.2em',
             '@media (max-width: 768px)': {
               fontSize: '22px'
             }
